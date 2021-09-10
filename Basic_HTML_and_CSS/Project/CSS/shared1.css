@@ -127,7 +127,7 @@ section {
     /*This ensures that the images cannot
     render outside of their container
     without forcing any scrollbars*/
-    overflow: hidden;
+    overflow: visible;
     top: 0;
     left: 0;
     text-align: center;
