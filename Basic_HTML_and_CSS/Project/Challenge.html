@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Challenge</title>
+        <style>
+            img{
+                filter: grayscale(15%);
+            }
+
+            #img {
+                border: 2px dashed pink;
+                border-radius: 15px;
+                text-align: center;
+                color: black;
+                position: relative;
+            }
+
+            .footer{
+                text-align: center;
+                font-weight: bold;
+            }
+
+            table, td {
+                border: 2px solid black;
+                padding: 15px;
+                background-color: lightblue;
+            }
+
+            th {
+                border: 2px solid black;
+                padding: 15px;
+                background-color: goldenrod; 
+            }
+            .top-left {
+                position: centered;
+                top: 12px;
+                left: 6px;
+            }
+
+            .navbar {
+                    overflow: hidden;
+                    background-color:lightblue;
+                    position: fixed; /* Set the navbar to fixed position */
+                    top: 0; /* Position the navbar at the top of the page */
+                    width: 100%; /* Full width */
+                }
+
+                    /* Change background on mouse-over */
+             .navbar a:hover {
+                     background: #ddd;
+                     color: black;
+                 }
+     </style>
+        <link rel="stylesheet" href="./CSS/Challenge_1.css">
+
+    </head>
+        <h3>Challenge</h3>
+    <body>
+
+        <!--NAV-->
+	<div class="navbar">
+		<div class="menu-container">
+			<ul class="menu">
+				<a href="#home"><li>HOME</li></a>
+				<a href="#about"><li>ABOUT</li></a>
+				<a href="#contact"><li>CONTACT</li></a>
+			</ul>
+		</div>
+	</div>
+	<!--End NAV-->
+
+    <!--IMG Section-->
+        <div id="img">
+            <img src="./Images/Thumb/Thumbnail_10.jpg"  alt="Rogue" class="center" height="250px" width="250px">
+            <div class="top-left">Rogue Thomas Productions</div>
+        </div>
+    <!--END IMAGE SECTION-->    
+
+        <div class="container">
+            <table style="width: 100%;"
+                <tr>
+                    <th>Film</th>
+                    <th>Part</th>
+                    <th>Producer</th>
+                </tr>
+
+                <tr>
+                    <td>A Nightmare Reborn</td>
+                    <td>Detective James</td>
+                    <td>Nick Dash</td>
+                </tr>
+
+                <tr>
+                    <td>Marty</td>
+                    <td>Father</td>
+                    <td>Dustin Pruitt</td>
+                </tr>
+        </div>
+
+
+
+
+        <footer>
+            <div class="footer">
+             <p>Created by Rogue Thomas</p>
+            </div>
+        </footer>
+    </body>
+</html>
