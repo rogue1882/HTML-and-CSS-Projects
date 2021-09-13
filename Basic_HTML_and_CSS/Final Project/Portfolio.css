@@ -131,6 +131,7 @@ body {
     to {left: 0vw;} /* This moves the navbar into place on the screen
    */
    }
+   
    /* Navbar links */
    .Navbar a {
     float: left; /* This specifies that the text floats on the left on
